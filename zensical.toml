@@ -1,0 +1,70 @@
+[project]
+site_name = "Documentação do SINISA"
+site_description = "Documentação técnica e funcional dos sistemas SINISA Locais e SINISA Regionais"
+docs_dir = "docs"
+site_dir = "site"
+copyright = "Ministério das Cidades · UNIVASF · Documentação técnica do SINISA"
+extra_css = ["stylesheets/extra.css"]
+nav = [
+  { "Início" = "index.md" },
+  { "SINISA Locais" = [
+    { "Introdução" = "sinisa-locais/introducao.md" },
+    { "Dados da coleta anterior" = "sinisa-locais/dados-coleta-anterior.md" },
+    { "Módulo de Gestão Municipal" = "sinisa-locais/gestao-municipal.md" },
+    { "Documentação funcional" = [
+      { "Casos de uso" = "sinisa-locais/casos-de-uso.md" },
+    ] },
+    { "Arquitetura" = [
+      { "Visão geral" = "sinisa-locais/arquitetura.md" },
+      { "Fluxo de login" = "sinisa-locais/fluxo-login.md" },
+    ] },
+  ] },
+  { "SINISA Regionais" = [
+    { "Introdução" = "sinisa-regionais/introducao.md" },
+    { "Fluxo de geração de indicadores" = "sinisa-regionais/fluxo-geracao-indicadores.md" },
+  ] },
+  { "Aspectos de desenvolvimento" = [
+    { "Configurando o Xdebug na aplicação" = "aspectos-desenvolvimento/configurando-xdebug.md" },
+    { "Construção de módulos através do Gii" = "aspectos-desenvolvimento/construcao-modulos-gii.md" },
+  ] },
+  { "Decisões arquiteturais" = [
+    { "ADR-0001 — Plataforma de backend" = "adr/ADR-0001-plataforma-backend-sinisa.md" },
+  ] },
+]
+
+[project.theme]
+language = "pt-BR"
+logo = "assets/logo-sinisa-header-pdf.png"
+favicon = "assets/sinisa2.png"
+font = false
+features = [
+  "navigation.tabs",
+  "navigation.sections",
+  "navigation.path",
+  "navigation.top",
+  "toc.follow",
+  "search.highlight",
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/sun"
+toggle.name = "Ativar tema escuro"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/moon"
+toggle.name = "Ativar tema claro"
+
+[project.validation]
+invalid_links = true
+invalid_link_anchors = true
+
+[project.extra]
+generator = false
