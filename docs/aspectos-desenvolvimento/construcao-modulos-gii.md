@@ -69,9 +69,3 @@ http://localhost:8080/gii
 ```
 
 ![Página inicial do Gii exibindo os geradores disponíveis, incluindo Module Generator.](../assets/aspectos-desenvolvimento/gii/pagina-geradores.png)
-
-## Resultado esperado
-
-A página inicial do Gii apresenta os geradores disponíveis na aplicação. A captura mostra, entre outros, o **Module Generator**, relacionado à geração de módulos, e os geradores de models, controllers e CRUD do SINISA.
-
-O PDF termina nessa tela. O preenchimento dos parâmetros do gerador, a geração dos arquivos e o registro do novo módulo podem ser documentados em uma próxima etapa.
