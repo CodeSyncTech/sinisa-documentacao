@@ -1,0 +1,31 @@
+name: Deploy documentação SINISA
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy via SSH na VPS
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          password: ${{ secrets.VPS_PASSWORD }}
+          script: |
+            set -e
+            cd /opt/sinisa-documentacao
+            git fetch origin main
+            git reset --hard origin/main
+            podman build -t localhost/sinisa-documentacao:latest .
+            podman stop sinisa-documentacao 2>/dev/null || true
+            podman rm sinisa-documentacao 2>/dev/null || true
+            podman run -d \
+              --name sinisa-documentacao \
+              --restart=always \
+              --network host \
+              localhost/sinisa-documentacao:latest
+            podman image prune -f

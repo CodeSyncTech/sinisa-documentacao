@@ -374,7 +374,8 @@ body {
   width: 7.75rem;
 }
 
-.md-copyright {
+.md-copyright,
+.md-copyright__highlight {
   color: rgba(255, 255, 255, 0.78);
   font-size: 0.66rem;
 }
