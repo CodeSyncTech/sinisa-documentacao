@@ -26,3 +26,6 @@ O site estático será gerado em `site/`. Os arquivos-fonte ficam em `docs/`:
 - [SINISA Regionais](docs/sinisa-regionais/introducao.md)
 - Aspectos de desenvolvimento: [Xdebug](docs/aspectos-desenvolvimento/configurando-xdebug.md) e [Gii](docs/aspectos-desenvolvimento/construcao-modulos-gii.md).
 - [Registros de decisões arquiteturais](docs/adr/)
+
+
+<sub>Obs.: teste de migração de owner</sub>
