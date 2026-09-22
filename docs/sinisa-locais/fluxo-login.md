@@ -23,7 +23,7 @@ Documentar a sequência de interações a nível de requisições no SINISA Loca
 
 Os nomes abaixo são os exibidos no diagrama.
 
-| Participante | Papel representado | Caminho ou referência no código |
+| Participante | Papel representado | Referência no código |
 | --- | --- | --- |
 | Usuário / Navegador | Inicia a requisição e recebe a resposta. | --|
 | `web/index.php` | Ponto de entrada da requisição. | -- |
