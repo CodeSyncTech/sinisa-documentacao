@@ -7,4 +7,5 @@ RUN zensical build --strict --clean
 
 FROM docker.io/library/nginx:alpine
 COPY --from=build /app/site /usr/share/nginx/html
-EXPOSE 80
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+EXPOSE 8082

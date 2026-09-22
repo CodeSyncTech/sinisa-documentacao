@@ -26,6 +26,6 @@ jobs:
             podman run -d \
               --name sinisa-documentacao \
               --restart=always \
-              -p 0.0.0.0:8082:80 \
+              --network host \
               localhost/sinisa-documentacao:latest
             podman image prune -f
