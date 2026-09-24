@@ -40,8 +40,8 @@ Os identificadores abaixo referem-se a cada um dos casos de uso verificados no s
 | --- | --- |
 | Administrador de TI. | Agrupa todos os casos de uso do sistema |
 | Coordenador | Realiza de UC-01 A UC-06, com os casos de uso de preenchimento também (UC-09 a UC-12; na modalidade preenchimento interno). |
-| Analista | '' |
-| Consulta Interna | '' |
+| Analista | 'Igual ao coordenador'. |
+| Consulta Interna | 'Igual ao coordenador' |
 | Regulador| Realiza de UC-01 a UC-05, responsável pelo acompanhamento da situação de coleta. |
 | Consulta Externa | Realiza de UC-01 a UC-05, responsável pelo acompanhamento da situação de coleta. |
 | Responsável pelo Preenchimento | Realiza de UC-01 a UC-05 e de UC-09 a UC-12, responsável pelas funções de preenchimento e finalização externa da coleta. |
