@@ -39,8 +39,11 @@ Os identificadores abaixo referem-se a cada um dos casos de uso verificados no s
 | Atores | Descrição |
 | --- | --- |
 | Administrador de TI. | Agrupa todos os casos de uso do sistema |
-| Coordenador | Agrupa Regulador e Consulta Externa no diagrama. |
-| Analista | Agrupa Analista, Consulta Interna, Coordenador e Administrador de TI no diagrama. |
+| Coordenador | Realiza de UC-01 A UC-06, com os casos de uso de preenchimento também (UC-09 a UC-12; na modalidade preenchimento interno). |
+| Analista | '' |
+| Consulta Interna | '' |
+| Regulador| Realiza de UC-01 a UC-05, responsável pelo acompanhamento da situação de coleta|
+| Consulta Externa | Realiza de UC-01 a UC-05, responsável pelo acompanhamento da situação de coleta|
 
 | Agrupamentos | Descrição |
 | --- | --- |
