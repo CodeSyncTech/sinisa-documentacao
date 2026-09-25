@@ -16,7 +16,7 @@ hide:
       </p>
       <p class="sinisa-summary">
         Este portal reúne documentação dos sistemas, fluxos de processamento,
-        funcionalidades e decisões arquiteturais. 
+        funcionalidades e decisões técnicas. 
       </p>
     </div>
     <img
@@ -65,7 +65,7 @@ hide:
       <a class="sinisa-link-row" href="adr/ADR-0001-plataforma-backend-sinisa/">
         <span class="sinisa-link-row__number" aria-hidden="true">ADR</span>
         <span class="sinisa-link-row__content">
-          <strong>Decisões arquiteturais</strong>
+          <strong>Decisões técnicas</strong>
           <span>Contexto, alternativas avaliadas e consequências das decisões técnicas do projeto.</span>
         </span>
         <span class="sinisa-link-row__arrow" aria-hidden="true">→</span>
