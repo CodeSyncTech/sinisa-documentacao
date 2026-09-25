@@ -20,9 +20,9 @@ Discutiu-se que a disponibilização do preenchimento de formulários por locali
 
 O [fluxograma original discutido na reunião](../assets/diagramas/saneamento-rural/fluxograma-original.png) está aqui dividido em três partes. Os marcos “Iniciar preenchimento” e “Revisar preenchimento da participação” conectam uma parte à seguinte. Clique nas imagens para abrir os fluxogramas e ampliar a visualização.
 
-| 1. Localidades | 2. Distritos |
+| 1. Localidades | 2. Municípios e Distritos e Setores |
 | --- | --- |
-| Do início do ciclo até **Iniciar preenchimento**. | De **Iniciar preenchimento** até **Revisar preenchimento da participação**. |
+| Indicação das **localidades** no mapa. | Visualização de **municípios, distritos e setores**. |
 | [<img src="../assets/diagramas/saneamento-rural/Localidades.png" alt="Indicação das localidades no mapa" width="220" height="320" style="object-fit: contain;">](../assets/diagramas/saneamento-rural/Localidades.png) | [<img src="../assets/diagramas/saneamento-rural/Setores.png" alt="Visualização de setores, municípios e distritos" width="220" height="320" style="object-fit: contain;">](../assets/diagramas/saneamento-rural/Setores.png) |
 
 
