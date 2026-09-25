@@ -30,6 +30,7 @@ nav = [
   { "Decisões técnicas" = [
     { "ADR-0001 — Plataforma de backend" = "adr/ADR-0001-plataforma-backend-sinisa.md" },
     { "SR-ADR-0001 — Saneamento Rural" = "adr/SR-ADR-0001.md" },
+    { "SR-ADR-0002 — Abrangência da Coleta" = "adr/SR-ADR-0002.md" }
   ] },
 ]
 
